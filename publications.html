@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>出版物 | 智能政策研究中心</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { font-family: 'Inter', sans-serif; }
+        .hero-bg { background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-2px); }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center space-x-3">
+                    <a href="index.html" class="flex items-center space-x-3">
+                        <svg class="w-8 h-8 text-blue-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                        </svg>
+                        <span class="font-bold text-lg text-blue-900">CRIP</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html#research" class="text-gray-600 hover:text-blue-900 font-medium">研究方向</a>
+                    <a href="projects.html" class="text-gray-600 hover:text-blue-900 font-medium">研究项目</a>
+                    <a href="people.html" class="text-gray-600 hover:text-blue-900 font-medium">团队成员</a>
+                    <a href="publications.html" class="text-blue-900 font-medium">出版物</a>
+                    <a href="index.html#contact" class="text-gray-600 hover:text-blue-900 font-medium">联系我们</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-bg text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="text-4xl font-bold mb-4">出版物</h1>
+            <p class="text-gray-300 text-lg max-w-2xl">我们的研究成果与学术贡献</p>
+        </div>
+    </section>
+
+    <!-- Publications -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Filter -->
+            <div class="flex flex-wrap gap-2 mb-8">
+                <button class="px-4 py-2 bg-blue-600 text-white rounded-full text-sm font-medium">全部</button>
+                <button class="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:bg-gray-200">期刊论文</button>
+                <button class="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:bg-gray-200">会议论文</button>
+                <button class="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:bg-gray-200">政策报告</button>
+                <button class="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:bg-gray-200">工作论文</button>
+            </div>
+
+            <!-- Papers List -->
+            <div class="space-y-6">
+                <!-- Paper 1 -->
+                <div class="p-6 bg-gray-50 rounded-xl card-hover">
+                    <div class="flex items-start justify-between">
+                        <div class="flex-1">
+                            <span class="text-xs text-blue-600 font-medium">期刊论文</span>
+                            <h3 class="text-lg font-semibold text-gray-900 mt-1 mb-2">基于深度学习的政务服务智能问答系统</h3>
+                            <p class="text-gray-600 text-sm mb-3">张明远, 李雪晴, 王建国. 计算机科学, 2025, 42(3): 156-170.</p>
+                            <div class="flex gap-3">
+                                <a href="#" class="text-blue-600 text-sm hover:underline">PDF</a>
+                                <a href="#" class="text-blue-600 text-sm hover:underline">DOI</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Paper 2 -->
+                <div class="p-6 bg-gray-50 rounded-xl card-hover">
+                    <div class="flex items-start justify-between">
+                        <div class="flex-1">
+                            <span class="text-xs text-purple-600 font-medium">会议论文</span>
+                            <h3 class="text-lg font-semibold text-gray-900 mt-1 mb-2">公共资源优化配置: 一个基于强化学习的框架</h3>
+                            <p class="text-gray-600 text-sm mb-3">陈思远, 刘芳. AAAI 2025 人工智能会议.</p>
+                            <div class="flex gap-3">
+                                <a href="#" class="text-blue-600 text-sm hover:underline">PDF</a>
+                                <a href="#" class="text-blue-600 text-sm hover:underline">DOI</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Paper 3 -->
+                <div class="p-6 bg-gray-50 rounded-xl card-hover">
+                    <div class="flex items-start justify-between">
+                        <div class="flex-1">
+                            <span class="text-xs text-green-600 font-medium">政策报告</span>
+                            <h3 class="text-lg font-semibold text-gray-900 mt-1 mb-2">中国数字政府建设现状与展望</h3>
+                            <p class="text-gray-600 text-sm mb-3">智能政策研究中心. CRIP-2025-001, 2025年3月.</p>
+                            <div class="flex gap-3">
+                                <a href="#" class="text-blue-600 text-sm hover:underline">PDF</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Paper 4 -->
+                <div class="p-6 bg-gray-50 rounded-xl card-hover">
+                    <div class="flex items-start justify-between">
+                        <div class="flex-1">
+                            <span class="text-xs text-orange-600 font-medium">工作论文</span>
+                            <h3 class="text-lg font-semibold text-gray-900 mt-1 mb-2">算法公平性在政府决策中的应用研究</h3>
+                            <p class="text-gray-600 text-sm mb-3">赵文博, 周志明. CRIP Working Paper No. 2025-012.</p>
+                            <div class="flex gap-3">
+                                <a href="#" class="text-blue-600 text-sm hover:underline">PDF</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Paper 5 -->
+                <div class="p-6 bg-gray-50 rounded-xl card-hover">
+                    <div class="flex items-start justify-between">
+                        <div class="flex-1">
+                            <span class="text-xs text-blue-600 font-medium">期刊论文</span>
+                            <h3 class="text-lg font-semibold text-gray-900 mt-1 mb-2">隐私保护计算技术在政务数据共享中的应用</h3>
+                            <p class="text-gray-600 text-sm mb-3">孙丽娟, 吴海洋. 信息安全研究, 2025, 11(1): 45-58.</p>
+                            <div class="flex gap-3">
+                                <a href="#" class="text-blue-600 text-sm hover:underline">PDF</a>
+                                <a href="#" class="text-blue-600 text-sm hover:underline">DOI</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Paper 6 -->
+                <div class="p-6 bg-gray-50 rounded-xl card-hover">
+                    <div class="flex items-start justify-between">
+                        <div class="flex-1">
+                            <span class="text-xs text-purple-600 font-medium">会议论文</span>
+                            <h3 class="text-lg font-semibold text-gray-900 mt-1 mb-2">应急响应系统中的实时数据分析</h3>
+                            <p class="text-gray-600 text-sm mb-3">王建国, 张明远. IEEE 应急管理国际会议 2024.</p>
+                            <div class="flex gap-3">
+                                <a href="#" class="text-blue-600 text-sm hover:underline">PDF</a>
+                                <a href="#" class="text-blue-600 text-sm hover:underline">DOI</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="mt-12 flex justify-center">
+                <div class="flex gap-2">
+                    <button class="px-4 py-2 border border-gray-300 rounded-lg text-gray-600 hover:bg-gray-50">上一页</button>
+                    <button class="px-4 py-2 bg-blue-600 text-white rounded-lg">1</button>
+                    <button class="px-4 py-2 border border-gray-300 rounded-lg text-gray-600 hover:bg-gray-50">2</button>
+                    <button class="px-4 py-2 border border-gray-300 rounded-lg text-gray-600 hover:bg-gray-50">3</button>
+                    <button class="px-4 py-2 border border-gray-300 rounded-lg text-gray-600 hover:bg-gray-50">下一页</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400 text-sm">
+            <p>© 2026 Center for Research on Intelligent Policy. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

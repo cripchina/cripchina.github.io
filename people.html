@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>团队成员 | 智能政策研究中心</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { font-family: 'Inter', sans-serif; }
+        .hero-bg { background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center space-x-3">
+                    <a href="index.html" class="flex items-center space-x-3">
+                        <svg class="w-8 h-8 text-blue-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                        </svg>
+                        <span class="font-bold text-lg text-blue-900">CRIP</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html#research" class="text-gray-600 hover:text-blue-900 font-medium">研究方向</a>
+                    <a href="projects.html" class="text-gray-600 hover:text-blue-900 font-medium">研究项目</a>
+                    <a href="people.html" class="text-blue-900 font-medium">团队成员</a>
+                    <a href="publications.html" class="text-gray-600 hover:text-blue-900 font-medium">出版物</a>
+                    <a href="index.html#contact" class="text-gray-600 hover:text-blue-900 font-medium">联系我们</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-bg text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="text-4xl font-bold mb-4">团队成员</h1>
+            <p class="text-gray-300 text-lg max-w-2xl">我们汇聚了公共政策、计算机科学、统计学等领域的顶尖学者和研究员</p>
+        </div>
+    </section>
+
+    <!-- Leadership -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-8">核心领导</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 rounded-xl p-6 card-hover">
+                    <div class="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-16 h-16 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center text-gray-900">张明远</h3>
+                    <p class="text-blue-600 text-center font-medium mb-2">主任</p>
+                    <p class="text-gray-600 text-sm text-center">清华大学公共管理学院教授，长期从事数字治理与政策分析研究</p>
+                </div>
+                <div class="bg-gray-50 rounded-xl p-6 card-hover">
+                    <div class="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-16 h-16 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center text-gray-900">李雪晴</h3>
+                    <p class="text-blue-600 text-center font-medium mb-2">副主任</p>
+                    <p class="text-gray-600 text-sm text-center">北京大学光华管理学院副教授，研究方向为数据科学与公共政策</p>
+                </div>
+                <div class="bg-gray-50 rounded-xl p-6 card-hover">
+                    <div class="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-16 h-16 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center text-gray-900">王建国</h3>
+                    <p class="text-blue-600 text-center font-medium mb-2">首席科学家</p>
+                    <p class="text-gray-600 text-sm text-center">MIT博士，前Google研究员，专注人工智能算法研究</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Team -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-8">研究团队</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
+                <div class="text-center">
+                    <div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                        </svg>
+                    </div>
+                    <h4 class="font-semibold text-gray-900">陈思远</h4>
+                    <p class="text-xs text-gray-500">高级数据科学家</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                        </svg>
+                    </div>
+                    <h4 class="font-semibold text-gray-900">刘芳</h4>
+                    <p class="text-xs text-gray-500">政策分析师</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                        </svg>
+                    </div>
+                    <h4 class="font-semibold text-gray-900">赵文博</h4>
+                    <p class="text-xs text-gray-500">算法工程师</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                        </svg>
+                    </div>
+                    <h4 class="font-semibold text-gray-900">孙丽娟</h4>
+                    <p class="text-xs text-gray-500">研究助理</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                        </svg>
+                    </div>
+                    <h4 class="font-semibold text-gray-900">周志明</h4>
+                    <p class="text-xs text-gray-500">博士后</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                        </svg>
+                    </div>
+                    <h4 class="font-semibold text-gray-900">吴海洋</h4>
+                    <p class="text-xs text-gray-500">研究工程师</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advisory Board -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-8">学术顾问委员会</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="p-6 border border-gray-200 rounded-xl">
+                    <h3 class="font-semibold text-gray-900">李小可</h3>
+                    <p class="text-blue-600 text-sm mb-2">斯坦福大学胡佛研究所</p>
+                    <p class="text-gray-600 text-sm">前美国政府首席技术顾问</p>
+                </div>
+                <div class="p-6 border border-gray-200 rounded-xl">
+                    <h3 class="font-semibold text-gray-900">Michael Chen</h3>
+                    <p class="text-blue-600 text-sm mb-2">哈佛大学肯尼迪学院</p>
+                    <p class="text-gray-600 text-sm">公共政策教授</p>
+                </div>
+                <div class="p-6 border border-gray-200 rounded-xl">
+                    <h3 class="font-semibold text-gray-900">王晓东</h3>
+                    <p class="text-blue-600 text-sm mb-2">中国科学院</p>
+                    <p class="text-gray-600 text-sm">计算科学研究员</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400 text-sm">
+            <p>© 2026 Center for Research on Intelligent Policy. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
